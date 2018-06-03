@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>A__ka_pune_edhe_per_mu</Name>
+    <ProjectGuid>2ca7c3e2-cc33-4636-b664-11294768b363</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>A -ka-pune-edhe-per-mu</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="action.php" />
+    <Compile Include="aplikimi.php" />
+    <Compile Include="Ckycja.php" />
+    <Compile Include="crud.php" />
+    <Compile Include="Database.php" />
+    <Compile Include="footer.php" />
+    <Compile Include="header.php" />
+    <Compile Include="index.php" />
+    <Compile Include="klasa.php" />
+    <Compile Include="klientiEmail.php" />
+    <Compile Include="konektimi.php" />
+    <Compile Include="konfirmimiAplikimit.php" />
+    <Compile Include="KontrolloKycjenKandidate.php" />
+    <Compile Include="kycja-kandidatit.php" />
+    <Compile Include="kycu.php" />
+    <Compile Include="Kycur.php" />
+    <Compile Include="lojaa.php" />
+    <Compile Include="Perdoruesi.php" />
+    <Compile Include="PHPMailer-master\class.phpmailer.php" />
+    <Compile Include="PHPMailer-master\class.phpmaileroauth.php" />
+    <Compile Include="PHPMailer-master\class.phpmaileroauthgoogle.php" />
+    <Compile Include="PHPMailer-master\class.pop3.php" />
+    <Compile Include="PHPMailer-master\class.smtp.php" />
+    <Compile Include="PHPMailer-master\extras\EasyPeasyICS.php" />
+    <Compile Include="PHPMailer-master\extras\htmlfilter.php" />
+    <Compile Include="PHPMailer-master\extras\ntlm_sasl_client.php" />
+    <Compile Include="PHPMailer-master\get_oauth_token.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-am.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-ar.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-az.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-be.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-bg.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-ca.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-ch.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-cs.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-da.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-de.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-el.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-eo.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-es.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-et.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-fa.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-fi.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-fo.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-fr.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-gl.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-he.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-hr.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-hu.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-id.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-it.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-ja.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-ka.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-ko.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-lt.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-lv.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-ms.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-nb.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-nl.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-pl.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-pt.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-pt_br.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-ro.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-ru.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-sk.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-sl.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-sr.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-sv.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-tr.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-uk.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-vi.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-zh.php" />
+    <Compile Include="PHPMailer-master\language\phpmailer.lang-zh_cn.php" />
+    <Compile Include="PHPMailer-master\PHPMailerAutoload.php" />
+    <Compile Include="punet-ajax.php" />
+    <Compile Include="punet.php" />
+    <Compile Include="regjistro-kandidat.php" />
+    <Compile Include="regjistrohu.php" />
+    <Compile Include="rrethNesh.php" />
+    <Compile Include="shfaq-punet.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css\" />
+    <Folder Include="img\" />
+    <Folder Include="PHPMailer-master\" />
+    <Folder Include="PHPMailer-master\examples\" />
+    <Folder Include="PHPMailer-master\examples\images\" />
+    <Folder Include="PHPMailer-master\examples\scripts\" />
+    <Folder Include="PHPMailer-master\examples\styles\" />
+    <Folder Include="PHPMailer-master\extras\" />
+    <Folder Include="PHPMailer-master\language\" />
+    <Folder Include="uploads\" />
+    <Folder Include="uploads\logo\" />
+    <Folder Include="uploads\resume\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\AdminLTE.min.css" />
+    <Content Include="css\custom.css" />
+    <Content Include="css\_all-skins.min.css" />
+    <Content Include="img\boxed-bg.jpg" />
+    <Content Include="img\boxed-bg.png" />
+    <Content Include="img\browse.jpg" />
+    <Content Include="img\career.jpg" />
+    <Content Include="img\default-50x50.gif" />
+    <Content Include="img\hire.png" />
+    <Content Include="img\icons.png" />
+    <Content Include="img\interviewed.jpeg" />
+    <Content Include="img\job-search.jpg" />
+    <Content Include="img\manage.jpg" />
+    <Content Include="img\photo1.png" />
+    <Content Include="img\postjob.png" />
+    <Content Include="kandidatetekycur.txt" />
+    <Content Include="leximiFile-it.txt" />
+    <Content Include="PHPMailer-master\composer.json" />
+    <Content Include="PHPMailer-master\composer.lock" />
+    <Content Include="PHPMailer-master\examples\code_generator.phps" />
+    <Content Include="PHPMailer-master\examples\contactform.phps" />
+    <Content Include="PHPMailer-master\examples\contents.html" />
+    <Content Include="PHPMailer-master\examples\contentsutf8.html" />
+    <Content Include="PHPMailer-master\examples\DKIM.phps" />
+    <Content Include="PHPMailer-master\examples\exceptions.phps" />
+    <Content Include="PHPMailer-master\examples\gmail.phps" />
+    <Content Include="PHPMailer-master\examples\gmail_xoauth.phps" />
+    <Content Include="PHPMailer-master\examples\images\phpmailer.png" />
+    <Content Include="PHPMailer-master\examples\images\phpmailer_mini.png" />
+    <Content Include="PHPMailer-master\examples\index.html" />
+    <Content Include="PHPMailer-master\examples\mail.phps" />
+    <Content Include="PHPMailer-master\examples\mailing_list.phps" />
+    <Content Include="PHPMailer-master\examples\pop_before_smtp.phps" />
+    <Content Include="PHPMailer-master\examples\scripts\shAutoloader.js" />
+    <Content Include="PHPMailer-master\examples\scripts\shBrushPhp.js" />
+    <Content Include="PHPMailer-master\examples\scripts\shCore.js" />
+    <Content Include="PHPMailer-master\examples\scripts\shLegacy.js" />
+    <Content Include="PHPMailer-master\examples\scripts\XRegExp.js" />
+    <Content Include="PHPMailer-master\examples\sendmail.phps" />
+    <Content Include="PHPMailer-master\examples\send_file_upload.phps" />
+    <Content Include="PHPMailer-master\examples\send_multiple_file_upload.phps" />
+    <Content Include="PHPMailer-master\examples\signed-mail.phps" />
+    <Content Include="PHPMailer-master\examples\smtp.phps" />
+    <Content Include="PHPMailer-master\examples\smtp_check.phps" />
+    <Content Include="PHPMailer-master\examples\smtp_no_auth.phps" />
+    <Content Include="PHPMailer-master\examples\ssl_options.phps" />
+    <Content Include="PHPMailer-master\examples\styles\shCore.css" />
+    <Content Include="PHPMailer-master\examples\styles\shCoreDefault.css" />
+    <Content Include="PHPMailer-master\examples\styles\shCoreDjango.css" />
+    <Content Include="PHPMailer-master\examples\styles\shCoreEclipse.css" />
+    <Content Include="PHPMailer-master\examples\styles\shCoreEmacs.css" />
+    <Content Include="PHPMailer-master\examples\styles\shCoreFadeToGrey.css" />
+    <Content Include="PHPMailer-master\examples\styles\shCoreMDUltra.css" />
+    <Content Include="PHPMailer-master\examples\styles\shCoreMidnight.css" />
+    <Content Include="PHPMailer-master\examples\styles\shCoreRDark.css" />
+    <Content Include="PHPMailer-master\examples\styles\shThemeAppleScript.css" />
+    <Content Include="PHPMailer-master\examples\styles\shThemeDefault.css" />
+    <Content Include="PHPMailer-master\examples\styles\shThemeDjango.css" />
+    <Content Include="PHPMailer-master\examples\styles\shThemeEclipse.css" />
+    <Content Include="PHPMailer-master\examples\styles\shThemeEmacs.css" />
+    <Content Include="PHPMailer-master\examples\styles\shThemeFadeToGrey.css" />
+    <Content Include="PHPMailer-master\examples\styles\shThemeMDUltra.css" />
+    <Content Include="PHPMailer-master\examples\styles\shThemeMidnight.css" />
+    <Content Include="PHPMailer-master\examples\styles\shThemeRDark.css" />
+    <Content Include="PHPMailer-master\examples\styles\shThemeVisualStudio.css" />
+    <Content Include="PHPMailer-master\examples\styles\wrapping.png" />
+    <Content Include="PHPMailer-master\extras\README.md" />
+    <Content Include="PHPMailer-master\LICENSE" />
+    <Content Include="PHPMailer-master\VERSION" />
+    <Content Include="sugjerimet.txt" />
+    <Content Include="uploads\.DS_Store" />
+    <Content Include="uploads\logo\59cd0fd60ae8b.png" />
+    <Content Include="uploads\logo\59d275f598789.png" />
+    <Content Include="uploads\logo\59d2781509663.png" />
+    <Content Include="uploads\logo\59d278273078a.png" />
+  </ItemGroup>
+</Project>
